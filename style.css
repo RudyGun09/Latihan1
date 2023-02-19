@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: #404146;
+}
+
+nav {
+  background-color: #404146;
+  color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.dot {
+  height: 18px;
+  aspect-ratio: 1;
+  background-color: #f1d00e;
+  margin-top: auto;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+.greeting {
+  display: flex;
+  margin: 0 auto;
+}
+
+.ilustration {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 100;
+  padding: 10px;
+}
+.about {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 200px;
+}
+
+h4 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.project {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.prject,
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-width: auto;
+  row-gap: 25px;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 10px;
+  color: #f4f4f4;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+}
+button {
+  background-color: #f7e989;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  min-width: 350px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #7c7d82;
+  color: #ffffff;
+  padding: 25px;
+  min-height: 150px;
+}
+footer h5 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer ul {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+footer ul li {
+  font-size: 15px;
+}
